@@ -35,6 +35,9 @@ function App() {
       }),
     });
     const data = await res.json();
+    console.log("✅ Model použitý při odpovědi:", data.model);
+console.log("📦 Celá odpověď z OpenAI:", data);
+
     setResponse(data.choices?.[0]?.message?.content || "Žádná odpověď.");
 
     try {
