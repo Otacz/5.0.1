@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+  color: #222;
+}
+
+.App {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+
+h1 {
+  text-align: center;
+  color: #174e8c;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+button {
+  background-color: #174e8c;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 1rem;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #123a66;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+audio {
+  margin-top: 1rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+strong {
+  color: #174e8c;
+}
