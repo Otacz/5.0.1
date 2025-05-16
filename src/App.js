@@ -131,9 +131,8 @@ console.log("📦 Celá odpověď z OpenAI:", data);
           </a>
         </>
       )}
+        <AssistantTest />
     </div>
-<AssistantTest />
   );
 }
-
 export default App;
