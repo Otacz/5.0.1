@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 import { db } from "./firebase";
 import "./App.css";
+import AssistantTest from "./AssistantTest";
 
 function App() {
   const [input, setInput] = useState("");
@@ -131,6 +132,7 @@ console.log("📦 Celá odpověď z OpenAI:", data);
         </>
       )}
     </div>
+<AssistantTest />
   );
 }
 
